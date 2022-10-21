@@ -1,0 +1,7 @@
+type PlanSponsor @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  about: String
+  logoimage: String
+  colortheme: String
+}
